@@ -21,7 +21,7 @@ public class ReadUtility {
 	int cols;
 	String cellValue;
 
-	ReadUtility(String fPath, String sheetName) {
+	public ReadUtility(String fPath, String sheetName) {
 		this.fPath = fPath;
 		try {
 			fileInputStream = new FileInputStream(fPath);

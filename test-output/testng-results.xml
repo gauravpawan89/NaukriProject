@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-02T17:21:56 IST" name="Suite" finished-at="2023-12-02T17:22:32 IST" duration-ms="36107">
+  <suite started-at="2023-12-03T18:27:38 IST" name="Suite" finished-at="2023-12-03T18:28:13 IST" duration-ms="35036">
     <groups>
     </groups>
-    <test started-at="2023-12-02T17:21:56 IST" name="Test" finished-at="2023-12-02T17:22:32 IST" duration-ms="36107">
+    <test started-at="2023-12-03T18:27:38 IST" name="Test" finished-at="2023-12-03T18:28:13 IST" duration-ms="35036">
       <class name="TestCasePackage.NaukriRegistration">
-        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:TestCasePackage.NaukriRegistration@1433046b]" started-at="2023-12-02T17:21:56 IST" name="setUP" finished-at="2023-12-02T17:22:20 IST" duration-ms="23731" status="PASS">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:TestCasePackage.NaukriRegistration@426b6a74]" started-at="2023-12-03T18:27:38 IST" name="setUP" finished-at="2023-12-03T18:27:52 IST" duration-ms="14777" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,10 +18,88 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="carrerRegistration()[pri:1, instance:TestCasePackage.NaukriRegistration@1433046b]" started-at="2023-12-02T17:22:20 IST" name="carrerRegistration" description="Wait for Logo" finished-at="2023-12-02T17:22:32 IST" duration-ms="12033" status="PASS">
+        <test-method signature="logoVerified()[pri:1, instance:TestCasePackage.NaukriRegistration@426b6a74]" started-at="2023-12-03T18:27:53 IST" name="logoVerified" description="Wait for Logo" finished-at="2023-12-03T18:28:02 IST" duration-ms="9585" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carrerRegistration -->
+        </test-method> <!-- logoVerified -->
+        <test-method signature="carrerRegis(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:TestCasePackage.NaukriRegistration@426b6a74]" started-at="2023-12-03T18:28:09 IST" name="carrerRegis" data-provider="rData" finished-at="2023-12-03T18:28:11 IST" duration-ms="1747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gabc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gauravnaukri@11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.911227788E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carrerRegis -->
+        <test-method signature="carrerRegis(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:TestCasePackage.NaukriRegistration@426b6a74]" started-at="2023-12-03T18:28:11 IST" name="carrerRegis" data-provider="rData" finished-at="2023-12-03T18:28:12 IST" duration-ms="1060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nabc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nehanaukri@11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.966332255E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carrerRegis -->
+        <test-method signature="carrerRegis(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:TestCasePackage.NaukriRegistration@426b6a74]" started-at="2023-12-03T18:28:12 IST" name="carrerRegis" data-provider="rData" finished-at="2023-12-03T18:28:13 IST" duration-ms="1027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurabh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sabc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Saurabhnaukri@11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.874563211E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carrerRegis -->
       </class> <!-- TestCasePackage.NaukriRegistration -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
